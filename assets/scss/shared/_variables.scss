@@ -1,0 +1,24 @@
+/* Breakpoints: From xs to s, from s to m, from m to l, after that simple desktop */
+$xs: 768px;
+$s: 1024px;
+$m: 1200px;
+$l: 1366px;
+
+/* Colors */
+
+/* Defaults */
+$font-family: 'Montserrat', sans-serif;
+$font-size: 16px;
+$body-color: rgba(255, 255, 255, 0.5);
+$link-color: rgba(255, 255, 255, 0.75);
+$link-color-hover: #ff55a5;
+$body-bg: #2b2b31;
+$logo-bg: #28282d;
+
+/* Grid */
+$header-h: 90px;
+$header-mobile-h: 70px;
+$sidebar-w: 256px;
+
+/* Spacing */
+$mobile-padding: 16px;
