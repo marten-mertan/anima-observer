@@ -2,7 +2,7 @@
     <section class="season">
         <h2 class="season__title">
             <span class="mod-bold">
-                NEW ITEMS
+                NEW TITLES
             </span> 
             <span>
                 OF THIS SEASON
@@ -38,7 +38,7 @@
 </template>
 
 <script>
-    import {mapGetters, mapActions} from 'vuex';
+    import {mapGetters} from 'vuex';
 
     export default {
         name: 'Season',
@@ -47,18 +47,13 @@
         },
         computed: {
             ...mapGetters('season', ['getSeasonList'])
-        },
-        created() {
-            this.fetchSeasonList();
-        },
-        methods: {
-            ...mapActions('season', ['fetchSeasonList'])
         }
     };
 </script>
 
 <style lang="scss">
     .season {
+        position: relative;
         padding: 70px 0;
 
         &__title {
